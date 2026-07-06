@@ -70,9 +70,11 @@ CountryEdu_Assignment/
    - Using the integrated terminal with the following commands:
 
 javac NQueensProblem.java
+
 java NQueensProblem
 
 javac RegexMatcher.java
+
 java RegexMatcher
 ```
 ---
