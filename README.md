@@ -48,7 +48,7 @@ This program performs complete string matching using a simplified regular expres
 CountryEdu_Assignment/
 │
 ├── NQueensProblem.java
-├── RegularExpressionMatching.java
+├── RegexMatcher.java
 ├── README.md
 └── screenshots/
     ├── nqueens_output.png
@@ -64,16 +64,18 @@ CountryEdu_Assignment/
 1. Clone or download this repository to your local machine.
 2. Open the project folder in Visual Studio Code.
 3. Ensure that the Java Extension Pack and JDK are installed and configured.
-4. Open either "NQueensProblem.java" or "RegularExpressionMatching.java".
+4. Open either "NQueensProblem.java" or "RegexMatcher.java".
 5. Run the program by:
    - Clicking the Run button in Visual Studio Code, or
    - Using the integrated terminal with the following commands:
 
 javac NQueensProblem.java
 
+
 java NQueensProblem
 
 javac RegexMatcher.java
+
 
 java RegexMatcher
 ```
@@ -113,7 +115,6 @@ Through this assignment, I practiced:
 **Mansi Dhakad**
 
 B.Tech Student  
-Java | Python | Web Development | Machine Learning
 
 ---
 
