@@ -61,18 +61,20 @@ CountryEdu_Assignment/
 
 ### Compile
 
-```bash
+1. Clone or download this repository to your local machine.
+2. Open the project folder in Visual Studio Code.
+3. Ensure that the Java Extension Pack and JDK are installed and configured.
+4. Open either "NQueensProblem.java" or "RegularExpressionMatching.java".
+5. Run the program by:
+   - Clicking the Run button in Visual Studio Code, or
+   - Using the integrated terminal with the following commands:
+
 javac NQueensProblem.java
-javac RegularExpressionMatching.java
-```
-
-### Execute
-
-```bash
 java NQueensProblem
-java RegularExpressionMatching
-```
 
+javac RegexMatcher.java
+java RegexMatcher
+```
 ---
 
 ## 📷 Sample Output
