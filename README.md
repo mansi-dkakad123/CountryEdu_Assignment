@@ -1,123 +1,82 @@
-# CountryEdu Programming Assignment
+CountryEdu Programming Assignment
+Here are my solutions to the CountryEdu Programming Assignment implemented in Java. I have solved these problems to improve my ability to solve problems and gain more practical experience in implementing algorithms in Java.
 
-This repository contains my solutions for the CountryEdu Programming Assignment. The project is implemented in Java with a focus on clean code, proper structure, and problem-solving techniques.
 
----
+📌 Project Description
+This project involves two programming problems that mainly deal with solving algorithmic and logical problems.
 
-## 📌 Project Overview
 
-The assignment consists of two programming problems:
+1. N-Queen Problem
+It is a solution to the classical N-Queens problem using the backtracking algorithm. In this problem, we need to place N queens on an N × N board without attacking each other.
 
-### 1. N-Queens Problem
-The N-Queens problem requires placing **N queens** on an **N × N chessboard** so that no two queens attack each other.
 
-**Key Features**
-- Backtracking algorithm
-- Efficient conflict checking
-- Supports values of **1 ≤ N ≤ 9**
-- Returns the total number of valid solutions
+Highlights
+Implementation of the backtracking algorithm.
+Safety check of each placement.
+Supporting board sizes from 1 to 9.
+Displaying the total number of possible solutions.
 
----
 
-### 2. Regular Expression Matching
-This program performs complete string matching using a simplified regular expression pattern.
+2. Regular Expression Matcher
+In this programming problem, I have implemented a regular expression matcher that determines whether a given string matches a pattern.
+Supported feature
++ (One or more)
+Possible outputs
+True
+False
+Invalid pattern
+💻 Tech Stack
+Java
+Object-Oriented Programming (OOP)
+Backtracking
+Recursion
+Array
+String processing
 
-**Supported Feature**
-- `+` operator (one or more occurrences)
-
-**Program Output**
-- `True`
-- `False`
-- `Invalid Pattern`
-
----
-
-## 💻 Technologies Used
-
-- Java
-- Object-Oriented Programming (OOP)
-- Backtracking
-- Recursion
-- Pattern Matching
-
----
-
-## 📁 Project Structure
-
-```
+Project Structure
 CountryEdu_Assignment/
 │
-├── NQueensProblem.java
+├── NQueenProblem.java
 ├── RegexMatcher.java
 ├── README.md
 └── screenshots/
-    ├── nqueens_output.png
+    ├── nqueen_output.png
     └── regex_output.png
-```
-
----
-
-## ▶️ How to Run
-
-### Compile
-
-1. Clone or download this repository to your local machine.
-2. Open the project folder in Visual Studio Code.
-3. Ensure that the Java Extension Pack and JDK are installed and configured.
-4. Open either "NQueensProblem.java" or "RegexMatcher.java".
-5. Run the program by:
-   - Clicking the Run button in Visual Studio Code, or
-   - Using the integrated terminal with the following commands:
-
-javac NQueensProblem.java
 
 
-java NQueensProblem
-
+▶️ How to Run
+Running the N-Queen Problem Program
+javac NQueenProblem.java
+java NQueenProblem
+Running the Regular Expression Matcher Program
 javac RegexMatcher.java
-
-
 java RegexMatcher
-```
----
+📷 Sample Output
+The sample output of both programs can be seen in the screenshots directory.
 
-## 📷 Sample Output
 
-Program execution screenshots are available in the **screenshots** folder.
+📚 Concepts Applied
+Backtracking
+Recursion
+Arrays
+Pattern Matching
+Algorithm Design
 
----
 
-## 📚 Concepts Used
+🎯 What I Learnt
+During the course of this assignment, I got an opportunity to:
+Deepen my knowledge about backtracking and recursion.
+Enhance my logic and problem-solving skills.
+Learn how to match patterns using regular expressions.
+Code in Java more efficiently and effectively.
+Use Github to manage and organize projects better.
 
-- Backtracking
-- Recursion
-- Arrays
-- String Processing
-- Pattern Validation
-- Algorithm Design
 
----
+👨‍💻 Author
+Mansi Dhakad
+B.Tech in Computer Science and Engineering
+Jaypee University of Engineering and Technology, Guna
 
-## 🎯 Learning Outcomes
 
-Through this assignment, I practiced:
-
-- Designing efficient algorithms
-- Applying recursion and backtracking
-- Solving pattern matching problems
-- Writing structured and readable Java code
-- Organizing a project using GitHub
-
----
-
-## 👩‍💻 Author
-
-**Mansi Dhakad**
-
-B.Tech Student  
-
----
-
-## 📄 License
-
-This project is submitted as part of the CountryEdu Programming Assignment and is intended for educational purposes.
+📄 Note
+This project is done for CountryEdu Programming Assignment.
