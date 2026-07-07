@@ -25,6 +25,8 @@ Possible outputs
 True
 False
 Invalid pattern
+
+
 💻 Tech Stack
 Java
 Object-Oriented Programming (OOP)
@@ -51,6 +53,8 @@ java NQueenProblem
 Running the Regular Expression Matcher Program
 javac RegexMatcher.java
 java RegexMatcher
+
+
 📷 Sample Output
 The sample output of both programs can be seen in the screenshots directory.
 
